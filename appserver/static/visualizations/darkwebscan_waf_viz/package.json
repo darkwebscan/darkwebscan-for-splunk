@@ -1,0 +1,11 @@
+{
+  "name": "darkwebscan_emailsecurity_viz",
+  "version": "1.0.0",
+  "description": "Visualizes output of the | darkwebscanwaf command.",
+  "main": "visualization.js",
+  "author": "Bechtle GmbH IT-Systemhaus Rheinland",
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "underscore": "^1.8.3"
+  }
+}

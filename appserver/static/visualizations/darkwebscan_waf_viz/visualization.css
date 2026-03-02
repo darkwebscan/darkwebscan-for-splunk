@@ -1,0 +1,16 @@
+.darkwebscan_box_heading{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.darkwebscan_waf_warning_color{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0);
+    border: 1px solid #999;
+}
+
+.dwsa-color-red{ background: #FF0000; }
+.dwsa-color-yellow{ background: #EEE600; }
+.dwsa-color-green{ background: #008000; }

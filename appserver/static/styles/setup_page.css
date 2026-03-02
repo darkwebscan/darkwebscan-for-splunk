@@ -1,0 +1,54 @@
+#dwsa_container {
+    padding: 10px;
+}
+
+.dwsa_already_configured_warning{
+    display: none;
+    color: #664d03;
+    background: #fff3cd;
+    border-color: #ffe69c;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.dwsa_setup_setting{
+    margin-bottom: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #999;
+}
+
+.dwsa_radio_selector input, .dwsa_radio_selector label{
+    display: inline-block;
+}
+
+#proxy_no{
+    margin-left: 15px;
+}
+
+input[type=text], textarea{
+    width: 400px;
+    max-width: 100%;
+}
+
+#setup_button {
+    margin-top: 15px;
+}
+
+.success {
+    margin-top: 15px;
+    color: green;
+    display: none;
+}
+
+.error {
+    margin-top: 15px;
+    color: darkred;
+    display: none;
+}
+
+#error_details {
+    margin-top: 15px;
+    display: none;
+}

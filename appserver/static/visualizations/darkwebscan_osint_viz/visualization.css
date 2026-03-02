@@ -1,0 +1,70 @@
+ *{
+    --dwsaratingcolorred: #C1262C;
+    --dwsaratingcolororange: #DB5C23;
+    --dwsaratingcoloryellow: #F69220;
+    --dwsaratingcolorlightgreen: #8BA247;
+    --dwsaratingcolorgreen: #23B473;
+ }
+
+.darkwebscan-rating-meter{
+    width: 300px;
+    height: 300px;
+    padding: 60px;
+    border-radius: 50%;
+    background:
+        radial-gradient(#212527 0 0) content-box,
+        conic-gradient(
+            from -90deg,
+            var(--dwsaratingcolorred) 0 90deg,
+            var(--dwsaratingcolororange) 0 130deg,
+            var(--dwsaratingcoloryellow) 0 165deg,
+            var(--dwsaratingcolorgreen) 0 180deg,
+            #0000 0
+        );
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.darkwebscan-rating-needle{
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    padding: 90px;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background:
+        conic-gradient(
+            from 175deg at 50% 55%,
+            #0000 2deg,
+            #09321E 3deg 7deg,
+            #0000 8deg 10deg,
+            #0000 0
+        )
+        0 -129px no-repeat,
+        radial-gradient(
+            #09321E 0 50%,
+            #0000 51%
+        )
+        content-box;
+    rotate: calc(cos(var(--score) * 180deg / 100) * -90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.darkwebscan-rating-score{
+    rotate: calc(cos(var(--score) * 180deg / 100) * 90deg);
+    font-size: 18px;
+    font-family: 'Segoe UI', Arial, Tahoma, sans-serif;
+    font-weight: 800;
+    color: #eee;
+    box-sizing: border-box;
+}
+
+.darkwebscan_box_heading{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
