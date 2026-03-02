@@ -41,7 +41,7 @@ For support, please open an issue on [GitHub](https://github.com/darkwebscan/dar
 ## System requirements
 - [Splunk](https://splunk.com) for Enterprise installed or Splunk Cloud in use
 - Active subscription to the Dark Web Scan by Bechtle at [www.darkwebscan.app](https://darkwebscan.app) (Active subscription required. Does not work with one-time scans!)
-- The Splunk instance must be able to reach (https://api.darkwebscan.app)[https://api.darkwebscan.app] (HTTPS/Port 443 usage only, no HTTP connection needed).
+- The Splunk instance must be able to reach [https://api.darkwebscan.app](https://api.darkwebscan.app) (HTTPS/Port 443 usage only, no HTTP connection needed).
 - If the connection does not work, read the "Troubleshooting" section below.
 
 
